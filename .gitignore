@@ -47,3 +47,6 @@ tmp/
 # knowledge/constraints.md
 # projects/*/evidence/*
 # !projects/*/evidence/README.md
+
+# Harness approval-gate token (transient, single-use runtime file)
+.claude/.harness-approval
