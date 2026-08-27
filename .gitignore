@@ -1,0 +1,49 @@
+# ─── OS cruft ───────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Editor / IDE ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ─── Claude Code local state (keep the agent + skills, ignore local settings) ──
+.claude/settings.local.json
+.claude/*.local.json
+
+# ─── Secrets / env (never commit real credentials) ──────────
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# ─── Scratch / temp ─────────────────────────────────────────
+tmp/
+*.tmp
+*.bak
+*.log
+
+# ─── OPTIONAL: real (private) content ───────────────────────
+# The harness ships knowledge/ and projects/ as TEMPLATES + a worked example,
+# which SHOULD be committed. If you fill them with real, sensitive company data
+# and want to keep it out of a public repo, uncomment the lines below to ignore
+# your private content while keeping the structure. (Commit the templates first,
+# or add per-file exceptions.)
+#
+# knowledge/company.md
+# knowledge/customers.md
+# knowledge/product.md
+# knowledge/constraints.md
+# projects/*/evidence/*
+# !projects/*/evidence/README.md
