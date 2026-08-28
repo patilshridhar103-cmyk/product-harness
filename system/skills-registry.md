@@ -2,7 +2,7 @@
 
 > The agent reads this to know WHICH skill to reach for and WHEN. Skills are tools,
 > not agents — the single agent loads the relevant skill file, follows it, gates on
-> PM approval, and records the result. 25 skills across the product lifecycle.
+> PM approval, and records the result. 26 skills across the product lifecycle.
 
 ---
 
