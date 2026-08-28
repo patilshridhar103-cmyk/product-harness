@@ -9,10 +9,14 @@
 ---
 
 ## Domain
-**Domain:** B2B
-> The agent reads this to auto-select the metric lens from knowledge/domains/.
-> B2B → knowledge/domains/b2b.md (ACV, CAC, LTV, NRR). Change to B2C or internal
-> if the product type changes. If blank, the agent must ASK before money/metrics work.
+**Domain:** [B2B | B2C | internal]  ← set ONE for THIS product
+> The harness supports all three domains. Pick the one that matches THIS product;
+> the agent reads it to auto-select the metric lens from knowledge/domains/:
+>   • B2B      → knowledge/domains/b2b.md      (ACV, CAC, LTV, NRR, buyer≠user)
+>   • B2C      → knowledge/domains/b2c.md      (DAU/MAU, retention, ARPU, virality)
+>   • internal → knowledge/domains/internal.md (adoption, time-saved, cost-avoided)
+> This is a per-product setting, NOT a limit of the harness. If left as the
+> placeholder, the agent must ASK before any money/metrics work.
 
 ---
 
